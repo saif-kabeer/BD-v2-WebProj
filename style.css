@@ -12,6 +12,7 @@ body {
   padding: 0;
   box-sizing: border-box;
   gap: 80px;
+  background-color: #F5F5F5
 }
 
 /* Shared Styles */
@@ -31,6 +32,10 @@ body {
   line-height: normal;
   border: none;
 }
+.btn-primary:hover {
+  background-color: #005043;
+  color: white;
+}
 
 .section-title {
   color: #0E0E0E;
@@ -40,7 +45,18 @@ body {
   font-weight: 700;
   line-height: normal;
 }
-section{
+
+.section-description {
+  color: rgba(14, 14, 14, 0.70);
+  font-family: "Fira Sans";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  /* 150% */
+}
+
+section {
   width: 1280px;
   margin: 0 auto;
 }
@@ -85,7 +101,7 @@ section{
   gap: 64px;
   border-radius: 24px;
   background: #C6E4D6;
-  
+
 
 }
 
@@ -150,4 +166,166 @@ section{
   font-weight: 400;
   line-height: 24px;
   /* 150% */
+}
+
+/* vision section */
+.vision-box1 {
+  display: flex;
+  padding: 32px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 24px;
+  flex: 1 0 0;
+  border-radius: 16px;
+  border: 0px solid #5490F5;
+  background: rgba(84, 144, 245, 0.20);
+}
+
+.vision-box2 {
+  display: flex;
+  padding: 32px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 24px;
+  flex: 1 0 0;
+  border-radius: 16px;
+  border: 0px solid #09A15C;
+  background: #C6E4D6;
+}
+
+.vision-box3 {
+  display: flex;
+  padding: 32px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 24px;
+  flex: 1 0 0;
+  border-radius: 16px;
+  border: 0px solid #FFC239;
+  background: #F7EBCF;
+}
+
+.vision-boxes {
+  display: flex;
+  gap: 24px;
+  align-items: stretch;
+}
+
+.vision-box-title {
+  color: rgba(14, 14, 14, 0.80);
+  font-family: "Fira Sans";
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.vision-box-text {
+  color: rgba(14, 14, 14, 0.70);
+  font-family: "Fira Sans";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  /* 150% */
+}
+
+.vision-box {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.vision-btn {
+  display: flex;
+  padding: 11px 20px;
+  justify-content: center;
+  align-items: center;
+  gap: 48px;
+  border-radius: 8px;
+  border: none;
+  color: #FFF;
+  font-family: "Fira Sans";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
+.vb1 {
+  border-radius: 8px;
+  background: #5490F5;
+}
+
+.vb2 {
+  border-radius: 8px;
+  background: #09A15C;
+}
+
+.vb3 {
+  border-radius: 8px;
+  background: #FFC239;
+}
+
+.vision-btn:hover {
+  background-color: #006A50;
+  color: white;
+}
+.vision-box1,
+.vision-box2,
+.vision-box3 {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between; 
+}
+
+.vision-quote {
+  position: relative;
+  background-color: #FFF;
+  border: 1px solid rgba(14, 14, 14, 0.15);    
+  border-radius: 16px;
+  padding: 24px;
+  margin-top: 40px;  
+}
+
+
+.vision-quote-bg {
+  position: absolute;
+  top: 24px;
+  left: 24px;
+  z-index: 0;            
+  opacity: 0.58;         
+}
+
+
+.vision-quote-icon {
+  width: 48px;           
+  height: auto;
+  display: block;
+}
+
+
+.vision-quote p {
+  position: relative;    
+  z-index: 1;
+  color: rgba(14, 14, 14, 0.7);
+  font-size: 16px;
+  line-height: 1.5;
+  margin-bottom: 16px;   
+}
+
+
+.vision-cite {
+  position: relative;
+  z-index: 1;
+  font-size: 16px;
+  font-weight: 600;
+  color: #0E0E0E;
+  margin-bottom: 4px;
+}
+
+.vision-cite-subtitle {
+  font-size: 14px;
+  font-weight: 400;
+  color: rgba(14, 14, 14, 0.6);
 }
