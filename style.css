@@ -4,7 +4,28 @@
 
 * {
   font-family: "Fira Sans", serif;
+  align-items: center;
 }
+
+/* Shared Styles */
+.btn-primary {
+  border-radius: 8px;
+  background: #006A50;
+  display: flex;
+  padding: 17px 34px;
+  justify-content: center;
+  align-items: center;
+  gap: 48px;
+  color: #FFF;
+  font-family: "Fira Sans";
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  border: none;
+}
+
+
 
 /* nav bar */
 .nav-bar {
@@ -28,4 +49,48 @@
   font-style: normal;
   font-weight: 600;
   line-height: normal;
+}
+
+.sign-in-btn:hover {
+  background-color: #006A50;
+  color: white;
+}
+
+/* hero section */
+.hero-section {
+  display: flex;
+  width: 1280px;
+  padding: 80px 100px;
+  justify-content: center;
+  align-items: center;
+  gap: 64px;
+  border-radius: 24px;
+  background: #C6E4D6;
+
+}
+
+.hero-section-full-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.hero-subtitle {
+  color: rgba(14, 14, 14, 0.50);
+  font-family: "Fira Sans";
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.hero-title {
+  color: #0E0E0E;
+  font-family: "Fira Sans";
+  font-size: 56px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin-top: 16px;
+  margin-bottom: 24px;
 }
