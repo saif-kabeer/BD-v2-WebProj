@@ -329,12 +329,12 @@ section {
   font-weight: 400;
   color: rgba(14, 14, 14, 0.6);
 }
-/* ====== Opinion Section Wrapper ====== */
+
 .opinion-section {
-  margin: 60px 0; /* Spacing above/below the section */
+  margin: 60px 0;
 }
 
-/* Section title */
+
 .opinion-section .section-title {
   text-align: center;
   margin-bottom: 24px;
@@ -343,26 +343,26 @@ section {
   color: #0E0E0E; 
 }
 
-/* ====== Card-like container behind the table ====== */
+
 .opinion-table-container {
-  background-color: #fff;        /* White background */
-  border-radius: 8px;           /* Rounded corners */
-  padding: 16px;                /* Space inside container */
-  margin: 0 auto;               /* Center horizontally */
-  max-width: 900px;             /* Constrain width */
+  background-color: #fff;     
+  border-radius: 8px;       
+  padding: 16px;            
+  margin: 0 auto;         
+  max-width: 900px;        
   box-shadow: 0 2px 4px rgba(0,0,0,0.1);
 }
 
 /* ====== The table itself ====== */
 .opinion-table {
   width: 100%;
-  border-collapse: collapse;    /* Merge borders for a cleaner look */
+  border-collapse: collapse; 
   font-family: Arial, sans-serif;
 }
 
 /* ====== Table header ====== */
 .opinion-table thead tr {
-  background-color: #C6E4D6;     /* Pale green header */
+  background-color: #C6E4D6;     
 }
 .opinion-table th {
   text-align: left;
@@ -373,21 +373,21 @@ section {
   border-bottom: 1px solid #ddd;
 }
 
-/* ====== Table body rows ====== */
+
 .opinion-table td {
   padding: 12px 16px;
   border-bottom: 1px solid #ddd;
-  vertical-align: middle;       /* Ensures text and button align in the middle */
+  vertical-align: middle;  
 }
 .opinion-table tbody tr:last-child td {
-  border-bottom: none;          /* Remove border under last row */
+  border-bottom: none;          
 }
 
-/* ====== Dark Green Buttons (like your first screenshot) ====== */
+
 .opinion-table button {
-  background-color: #006A50;    /* Darker green */
-  color: #fff;                  /* White text */
-  border: 1px solid #006A50;    /* Or #005043 if you prefer a slightly darker border */
+  background-color: #006A50;  
+  color: #fff;             
+  border: 1px solid #006A50; 
   border-radius: 6px;
   padding: 8px 16px;
   cursor: pointer;
@@ -395,17 +395,289 @@ section {
   transition: background-color 0.2s ease;
   display: inline-flex;
   align-items: center;
-  gap: 4px;                     /* Space between text and arrow */
+  gap: 4px;                   
 }
 
-/* Hover effect: slightly darker or same color if you wish */
+
 .opinion-table button:hover {
-  background-color: #005043;    /* Even darker shade on hover */
+  background-color: #005043;  
 }
 
-/* Arrow icon styling (▼) */
+
 .dropdown-icon {
   font-size: 0.8rem;
-  color: #fff;                  /* White arrow to match text */
+  color: #fff;               
   opacity: 0.85;
 }
+/* news */
+.news-section {
+  width: 90%;
+  max-width: 1200px;
+  margin: 40px auto;
+}
+.news-heading {
+  font-size: 2rem;
+  font-weight: 700;
+  color: #0E0E0E;
+  margin-bottom: 16px;
+}
+.news-intro {
+  max-width: 800px;
+  margin-bottom: 40px;
+  color: #555;
+  line-height: 1.5;
+}
+
+
+.news-card {
+  display: flex;
+  flex-wrap: wrap;        
+  background-color: #fff;
+  border-radius: 16px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  margin-bottom: 40px;
+  overflow: hidden;
+}
+
+
+.reversed {
+  flex-direction: row-reverse;
+}
+
+.news-image {
+  flex: 0 0 40%;        
+  min-width: 280px;       
+  background-color: #eee; 
+}
+.news-image img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  display: block;
+}
+
+
+.news-content {
+  flex: 1;               
+  padding: 24px;
+  display: flex;
+  flex-direction: column; 
+  justify-content: center;
+}
+.news-title {
+  font-size: 1.5rem;
+  font-weight: 700;
+  margin-bottom: 8px;
+}
+.news-meta {
+  display: flex;
+  align-items: center;
+  gap: 12px; 
+  margin-bottom: 8px;
+}
+.news-logo {
+  width: 100px;           
+  height: auto;
+}
+.news-desc {
+  margin-bottom: 16px;
+  font-size: 1rem;
+  color: #555;
+  line-height: 1.5;
+}
+
+
+.news-btn {
+  background-color: #006A50;  
+  color: #fff;
+  border: none;
+  border-radius: 6px;
+  padding: 10px 20px;
+  cursor: pointer;
+  font-size: 1rem;
+  font-weight: 600;
+  transition: background-color 0.2s ease;
+  align-self: flex-start;     
+}
+.news-btn:hover {
+  background-color: #004F3D;   
+}
+.donate-section {
+  text-align: center;
+  margin-bottom: 60px;
+}
+.donate-title {
+  font-size: 2rem;
+  font-weight: 700;
+  color: #0E0E0E;
+  margin-bottom: 16px;
+}
+.donate-intro {
+  max-width: 800px;
+  margin: 0 auto 40px;
+  line-height: 1.5;
+  color: #555;
+}
+
+
+.donation-options {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+  justify-content: center;
+  margin-bottom: 24px;
+}
+.donation-btn {
+  background-color: #fff;
+  border: 1px solid #ccc;
+  color: #333;
+  border-radius: 6px;
+  padding: 16px 24px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+.donation-btn:hover {
+  background-color: #e6e6e6;
+}
+
+.active {
+  background-color: #C6E4D6;
+  border-color: #006A50;
+  color: #006A50;
+}
+
+
+.donation-form {
+  display: flex;
+  flex-wrap: wrap; 
+  justify-content: center;
+  gap: 12px;
+  max-width: 400px;
+  margin: 0 auto;
+}
+.donation-form input[type="text"] {
+  flex: 1;
+  padding: 14px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+}
+.done-btn {
+  background-color: #006A50;
+  color: #fff;
+  border: none;
+  border-radius: 6px;
+  padding: 14px 24px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+.done-btn:hover {
+  background-color: #005043;
+}
+
+
+.subscribe-section {
+  background-color: #C6E4D6; 
+  padding: 40px 0;          
+  margin-bottom: 60px;
+  border-radius: 16px;     
+  text-align: center;
+}
+.subscribe-content {
+  width: 90%;
+  max-width: 800px;
+  margin: 0 auto;
+}
+.subscribe-title {
+  font-size: 2rem;
+  font-weight: 700;
+  color: #0E0E0E;
+  margin-bottom: 16px;
+}
+.subscribe-intro {
+  max-width: 600px;
+  margin: 0 auto 24px;
+  color: #333;
+  line-height: 1.5;
+}
+.subscribe-form {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  justify-content: center;
+  margin-bottom: 16px;
+}
+.subscribe-form input[type="email"] {
+  flex: 1;
+  min-width: 240px;
+  padding: 14px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+}
+.subscribe-btn {
+  background-color: #006A50;
+  color: #fff;
+  border: none;
+  border-radius: 6px;
+  padding: 14px 24px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+.subscribe-btn:hover {
+  background-color: #005043;
+}
+.note {
+  color: #555;
+  font-size: 0.9rem;
+}
+
+
+.footer-section {
+  background-color: #fff;     
+  border-top: 1px solid #ddd;
+  padding: 20px;
+  text-align: center;
+}
+
+.footer-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 90%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+
+.footer-text {
+  font-size: 1.2rem;
+  font-weight: 700;
+  color: #333;
+}
+
+
+.social-icons {
+  display: flex;
+  gap: 12px; 
+}
+
+
+.social-link {
+  display: inline-block;
+  text-decoration: none;
+}
+
+/* The icon images themselves */
+.social-img {
+  width: 32px;   /* adjust size as desired */
+  height: auto;
+  transition: opacity 0.2s ease;
+}
+
+.social-img:hover {
+  opacity: 0.7;  /* slight hover effect */
+}
+
+
