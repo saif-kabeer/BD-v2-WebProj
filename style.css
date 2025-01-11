@@ -7,6 +7,13 @@
   align-items: center;
 }
 
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  gap: 80px;
+}
+
 /* Shared Styles */
 .btn-primary {
   border-radius: 8px;
@@ -25,6 +32,18 @@
   border: none;
 }
 
+.section-title {
+  color: #0E0E0E;
+  font-family: "Fira Sans";
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+section{
+  width: 1280px;
+  margin: 0 auto;
+}
 
 
 /* nav bar */
@@ -66,6 +85,7 @@
   gap: 64px;
   border-radius: 24px;
   background: #C6E4D6;
+  
 
 }
 
@@ -93,4 +113,41 @@
   line-height: normal;
   margin-top: 16px;
   margin-bottom: 24px;
+}
+
+/* Pillars section */
+.pillars-container {
+  display: flex;
+  gap: 24px;
+}
+
+.pillar-box {
+  display: flex;
+  width: 302px;
+  padding: 24px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 24px;
+  border-radius: 16px;
+  border: 1px solid rgba(14, 14, 14, 0.15);
+  background: #FFF;
+}
+
+.pillar-heading {
+  color: rgba(14, 14, 14, 0.80);
+  font-family: "Fira Sans";
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.pillar-description {
+  color: rgba(14, 14, 14, 0.70);
+  font-family: "Fira Sans";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  /* 150% */
 }
